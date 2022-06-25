@@ -17,6 +17,7 @@ nav, section, footer {
     height: 100vh;
 }
 
+
 /* Navigation Section*/
 nav {
     display: flex;
@@ -58,6 +59,7 @@ li a {
     background-color: rgba(223, 223, 223, 0.60);
     color: #ffffff;
 }
+
 
 /* Hero Section*/
 .hero-section {
@@ -113,7 +115,19 @@ li a {
 }
 
 
+/* Features Section */
+.features-section {
+    padding-top: 100px;
+    max-width: 460px;
+}
 
+.feature-card h2{
+    font-size: 40px;
+}
+
+.feature-card p {
+    line-height: 140%;
+}
 
 .app-preview {
     width: 100%;

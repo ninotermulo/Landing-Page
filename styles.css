@@ -3,6 +3,7 @@ body {
     font-family: 'Cabin', sans-serif;
     margin: 0px;
     color: #25313C;
+    font-size: 18px;
 /* font-family: 'Mulish', sans-serif; */
 }
 
@@ -23,17 +24,38 @@ nav {
     padding-top: 20px;    
 } 
 
+.logo {
+    padding-top: 16px;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     padding: 0px;
-    flex-basis: 400px;
+    flex-basis: 420px;
 }
 
 li a {
     text-decoration: none;
-    color: black;
+    color: #F3FDFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text-link:hover{
+    color: #f3fdff71;
+}
+
+.button-link {
+    padding: 10px 20px;
+    background-color: rgba(196, 196, 196, 0.60);
+    border-radius: 20px;
+}
+
+.button-link:hover {
+    background-color: rgba(223, 223, 223, 0.60);
+    color: #ffffff;
 }
 
 /* Hero Section*/

@@ -7,8 +7,17 @@ body {
 
 /* Navigation Section*/
 nav {
-    position: fixed;
-    top: 0px;
+    /* position: fixed;
+    top: 0px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+} 
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
 }
 
-/* */
+/* Hero Section*/

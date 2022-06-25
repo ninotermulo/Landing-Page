@@ -90,13 +90,14 @@ li a {
 .email, .submit {
     font-weight: 600px;
     padding: 0px 15px;
+    border: none
 }
 
 .email {
     flex: 1 0 auto;
-    border-radius: 7px;
     font-family: sans-serif;
     font-size: 15px;
+    border-radius: 7px;
 }
 
 .submit {
@@ -104,7 +105,6 @@ li a {
     font-size: 16px;
     margin: 0px;
     background-color: #3EC7B4;
-    border: none;
     border-radius: 20px;
 }
 

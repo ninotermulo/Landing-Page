@@ -5,3 +5,10 @@ body {
 /* font-family: 'Mulish', sans-serif; */
 }
 
+/* Navigation Section*/
+nav {
+    position: fixed;
+    top: 0px;
+}
+
+/* */

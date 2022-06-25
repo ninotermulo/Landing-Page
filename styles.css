@@ -72,8 +72,11 @@ li a {
     margin: 90px 0px 25px 0px;
 }
 
-
-
+.hero-section p {
+    max-width: 480px;
+    line-height: 160%;
+    margin-bottom: 30px;
+}
 
 
 

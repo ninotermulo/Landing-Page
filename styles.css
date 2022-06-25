@@ -12,7 +12,7 @@ nav, section, footer {
 }
 
 .nav-hero {
-    background: url(images/hero-image-min.jpg) no-repeat fixed;
+    background: url(images/hero-image.jpg) no-repeat fixed;
     background-size: cover;
 }
 

@@ -1,23 +1,48 @@
 body {
     background-color: #F3FDFF;
     font-family: 'Cabin', sans-serif;
-    padding: 0px 140px;
+    margin: 0px;
 /* font-family: 'Mulish', sans-serif; */
+}
+
+nav, section, footer {
+    padding: 0px 140px;
+}
+
+.nav-hero {
+    background: url(images/hero-image-min.jpg) no-repeat fixed;
+    background-size: cover;
 }
 
 /* Navigation Section*/
 nav {
-    /* position: fixed;
-    top: 0px; */
     display: flex;
     justify-content: space-between;
-    padding: 10px 0px;
+    padding-top: 20px;    
 } 
 
 ul {
     display: flex;
+    justify-content: space-between;
     list-style-type: none;
     padding: 0px;
+    flex-basis: 400px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
 }
 
 /* Hero Section*/
+.hero-section {
+    height: 100vh;
+}
+
+
+
+
+
+.app-preview {
+    width: 100%;
+}

@@ -14,6 +14,7 @@ nav, section, footer {
 .nav-hero {
     background: url(images/hero-image.jpg) no-repeat fixed;
     background-size: cover;
+    height: 100vh;
 }
 
 /* Navigation Section*/
@@ -59,9 +60,9 @@ li a {
 }
 
 /* Hero Section*/
-.hero-section {
-    height: 100vh;
-}
+
+
+
 
 
 

@@ -278,8 +278,106 @@ h2{
     margin-right: 10px;
 }
 
+.left-arrow:hover ,.right-arrow:hover {
+    filter: invert(45%) sepia(94%) saturate(1579%) hue-rotate(160deg) brightness(93%) contrast(102%);
+}
+
 
 /* Footer Section */
 footer {
     background-color: #485578;
+    color: #FFFFFF;
+    padding: 60px 140px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links,
+.footer-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    flex: 0 0 179px;
+    margin-right: 100px;    
+}
+
+.footer-logo img {
+    margin-bottom: 15px;
+}
+
+.text-opacity, .copyright {
+    color: hsl(0, 0%, 60%);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links {
+    flex: 0 0 165px;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+
+.footer-links a:hover {
+    color: hsl(0, 0%, 80%);
+}
+
+.text-opacity {
+    margin-bottom: 8px;
+}
+
+.footer-form {
+    flex: 0 0 260px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.footer-form fieldset {
+    padding: 0px;
+    margin: 10px 0px 0px 0px; 
+    border: none;
+    display: flex;
+    margin-top: 12px;
+}
+
+fieldset button {
+    margin-left: -30px;
+    border: none;
+    background-color: transparent;
+}
+
+fieldset button:hover {
+    
+}
+
+.footer-nav p {
+    margin-top: 0px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.footer-nav #description {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.footer-form .email {
+    border: 1px solid rgba(255, 255, 255, 0.80);
+    background-color: rgba(255, 255, 255, 0.50);
+    box-sizing: border-box;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.footer-form .email::placeholder {
+    color: rgba(255, 255, 255, 0.80);
+} 
+
+.copyright {
+    margin: 100px 0px 0px 0px;
 }

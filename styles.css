@@ -266,3 +266,13 @@ h2{
     line-height: 13px;
     font-weight: 400;
 }
+
+.test-arrows {
+    margin-top: 70px;
+    display: flex;
+    justify-content: right;
+}
+
+.left-arrow {
+    margin-right: 10px;
+}

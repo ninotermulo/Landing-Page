@@ -204,6 +204,7 @@ h2{
 /* Testimonial Section */
 .testimonial-section {
     overflow: hidden;
+    margin-bottom: 90px;
 }
 
 .testimonial-section h2 {
@@ -275,4 +276,10 @@ h2{
 
 .left-arrow {
     margin-right: 10px;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #485578;
 }

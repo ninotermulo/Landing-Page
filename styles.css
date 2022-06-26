@@ -163,6 +163,7 @@ li a {
 .lady-image {
     height: 450px;
     width: 450px;
+    min-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;

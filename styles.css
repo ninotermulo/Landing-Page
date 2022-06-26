@@ -126,6 +126,7 @@ li a {
 
 .feature {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     box-sizing: border-box;
@@ -135,7 +136,14 @@ li a {
 
 .feature .learn-more {
     display: flex;
+    text-decoration: none;
 }
+
+.learn-more p {
+    color: #3EC7B5;
+    margin-right: 5px;
+}
+
 
 .feature-card {
     min-width: 300px;
@@ -144,18 +152,49 @@ li a {
 
 .feature-card h2{
     font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
 }
 
 .feature-card p {
     line-height: 140%;
 }
 
-
-/* Feature-1 */
-
-.app-preview {
-    max-width: 1000px;
-    margin-right: -50em;
+.lady-image {
+    height: 450px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 20px;
 }
 
-/* Feature-2 */
+.notif {
+    max-width: 200px;
+    padding: 15px 27px 0 0px;
+}
+
+
+    /* Feature-1 */
+.app-preview {
+    max-width: 1000px;
+    margin-right: -30em;
+}
+
+    /* Feature-2 */
+#feature-2 {
+    flex-direction: row-reverse;
+}
+
+.lady-1 {
+    background: url("images/lady-1-min.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 5px; 
+}
+
+    /* Feature-3*/
+.lady-2 {
+    background: url("images/lady-2-min.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}

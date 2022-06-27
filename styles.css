@@ -279,7 +279,7 @@ h2{
 }
 
 .left-arrow:hover ,.right-arrow:hover {
-    filter: invert(45%) sepia(94%) saturate(1579%) hue-rotate(160deg) brightness(93%) contrast(102%);
+    filter: invert(90%) sepia(10%) saturate(791%) hue-rotate(105deg) brightness(109%) contrast(95%);
 }
 
 
@@ -351,7 +351,7 @@ fieldset button {
 }
 
 fieldset button:hover {
-    
+    filter: invert(85%) sepia(39%) saturate(23%) hue-rotate(319deg) brightness(96%) contrast(105%);
 }
 
 .footer-nav p {
